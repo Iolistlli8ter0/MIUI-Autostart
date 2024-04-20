@@ -45,10 +45,10 @@ die () {
 }
 
 # OS specific support (must be 'true' or 'false').
-cygwin=false
-msys=false
-darwin=false
-nonstop=false
+cygwin=true
+msys=true
+darwin=true
+nonstop=true
 case "`uname`" in
   CYGWIN* )
     cygwin=true
